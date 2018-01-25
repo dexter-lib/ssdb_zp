@@ -1,0 +1,5 @@
+2017/10/23-16:55:32.012690 7ffff7fe7760 Recovering log #19
+2017/10/23-16:55:32.012747 7ffff7fe7760 Level-0 table #21: started
+2017/10/23-16:55:32.017720 7ffff7fe7760 Level-0 table #21: 342 bytes OK
+2017/10/23-16:55:32.026501 7ffff7fe7760 Delete type=0 #19
+2017/10/23-16:55:32.026549 7ffff7fe7760 Delete type=3 #17

@@ -1,0 +1,440 @@
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:21:20.672 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:21:20.714 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:21:20.715 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:21:20.729 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:21:20.730 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:21:20.730 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:21:20.730 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:21:20.730 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737322673920)
+2017-10-23 16:21:20.730 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:21:20.731 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:21:20.732 [INFO ] ttl.cpp(46): expiration thread start tid: 140737307997952.
+2017-10-23 16:21:20.732 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:21:20.734 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14037
+2017-10-23 16:21:20.734 [DEBUG] backup.cpp(92): now: 1508746880, last_time::1508688000
+2017-10-23 16:21:20.734 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:21:20.736 [DEBUG] worker.cpp(17): writer 0 init
+2017-10-23 16:21:20.737 [DEBUG] worker.cpp(17): reader 0 init
+2017-10-23 16:21:20.737 [DEBUG] worker.cpp(17): reader 1 init
+2017-10-23 16:21:20.737 [DEBUG] worker.cpp(17): reader 2 init
+2017-10-23 16:21:20.738 [DEBUG] worker.cpp(17): reader 3 init
+2017-10-23 16:21:20.738 [DEBUG] worker.cpp(17): reader 4 init
+2017-10-23 16:21:20.740 [DEBUG] worker.cpp(17): reader 5 init
+2017-10-23 16:21:20.741 [DEBUG] worker.cpp(17): reader 6 init
+2017-10-23 16:21:20.743 [DEBUG] worker.cpp(17): reader 7 init
+2017-10-23 16:21:20.746 [DEBUG] worker.cpp(17): reader 9 init
+2017-10-23 16:21:20.743 [DEBUG] worker.cpp(17): reader 8 init
+2017-10-23 16:21:22.736 [DEBUG] backup.cpp(92): now: 1508746882, last_time::1508688000
+2017-10-23 16:21:22.736 [DEBUG] backup.cpp(103): cmd:rm -fr ./backup_dir/*
+2017-10-23 16:21:22.746 [DEBUG] backup.cpp(106): cmd:cp -r ./var/* ./backup_dir
+2017-10-23 16:21:24.757 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:26.758 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:28.759 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:30.759 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:32.760 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:34.761 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:36.762 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:38.763 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:40.764 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:42.765 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:44.766 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:46.767 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:48.768 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:50.769 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:52.770 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:53.661 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:21:53.662 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:21:53.663 [ERROR] ssdb_impl.cpp(64): open db failed: IO error: lock ./var/data/LOCK: Resource temporarily unavailable
+2017-10-23 16:21:53.663 [FATAL] ssdb-server.cpp(78): could not open data db: ./var/data
+2017-10-23 16:21:54.771 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:56.772 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:21:58.773 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:00.774 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:02.775 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:04.776 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:06.777 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:08.778 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:10.778 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:12.779 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:14.780 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:16.781 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:18.782 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:20.716 [DEBUG] ssdb_impl.cpp(625): gc data loop done, clean 0 keys
+2017-10-23 16:22:20.734 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:22:20.783 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:22:22.785 [DEBUG] backend_dump.cpp(18): BackendDump finalized
+2017-10-23 16:22:22.785 [DEBUG] backend_sync2.cpp(48): BackendSync finalized
+2017-10-23 16:22:22.786 [DEBUG] ttl.cpp(220): ExpirationHandler thread quit
+2017-10-23 16:22:22.787 [INFO ] ttl.cpp(53): expiration thread stop tid: 140737307997952.
+2017-10-23 16:22:22.787 [DEBUG] cluster.cpp(27): Cluster finalized
+2017-10-23 16:22:22.787 [DEBUG] slave.cpp(64): stopping slave thread...
+2017-10-23 16:22:22.787 [DEBUG] slave.cpp(74): Slave finalized
+2017-10-23 16:22:22.787 [DEBUG] serv.cpp(506): SSDBServer finalized
+2017-10-23 16:22:22.787 [INFO ] ssdb-server.cpp(137): ssdb-server exit.
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:26:27.953 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:26:27.996 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:26:27.996 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:26:28.003 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:26:28.003 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:26:28.004 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:26:28.004 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:26:28.004 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:26:28.007 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737316386560)
+2017-10-23 16:26:28.007 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:26:28.007 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:26:28.007 [INFO ] ttl.cpp(46): expiration thread start tid: 140737305896704.
+2017-10-23 16:26:28.007 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:26:28.007 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14130
+2017-10-23 16:26:28.007 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:26:28.007 [DEBUG] backup.cpp(92): now: 1508747188, last_time::1508688000
+2017-10-23 16:26:28.008 [DEBUG] worker.cpp(17): writer 0 init
+2017-10-23 16:26:28.010 [DEBUG] worker.cpp(17): reader 1 init
+2017-10-23 16:26:28.011 [DEBUG] worker.cpp(17): reader 3 init
+2017-10-23 16:26:28.013 [DEBUG] worker.cpp(17): reader 5 init
+2017-10-23 16:26:28.009 [DEBUG] worker.cpp(17): reader 0 init
+2017-10-23 16:26:28.012 [DEBUG] worker.cpp(17): reader 4 init
+2017-10-23 16:26:28.010 [DEBUG] worker.cpp(17): reader 2 init
+2017-10-23 16:26:28.013 [DEBUG] worker.cpp(17): reader 6 init
+2017-10-23 16:26:28.015 [DEBUG] worker.cpp(17): reader 8 init
+2017-10-23 16:26:28.015 [DEBUG] worker.cpp(17): reader 9 init
+2017-10-23 16:26:28.015 [DEBUG] worker.cpp(17): reader 7 init
+2017-10-23 16:26:30.009 [DEBUG] backup.cpp(92): now: 1508747190, last_time::1508688000
+2017-10-23 16:26:30.009 [DEBUG] backup.cpp(103): cmd:rm -fr ./backup_dir/*
+2017-10-23 16:26:30.016 [DEBUG] backup.cpp(106): cmd:cp -r ./var/* ./backup_dir
+2017-10-23 16:26:32.025 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:34.026 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:36.027 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:38.028 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:40.029 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:42.030 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:44.031 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:46.032 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:48.033 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:50.034 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:52.035 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:26:54.037 [DEBUG] backend_dump.cpp(18): BackendDump finalized
+2017-10-23 16:26:54.038 [DEBUG] backend_sync2.cpp(48): BackendSync finalized
+2017-10-23 16:26:54.040 [DEBUG] ttl.cpp(220): ExpirationHandler thread quit
+2017-10-23 16:26:54.041 [INFO ] ttl.cpp(53): expiration thread stop tid: 140737305896704.
+2017-10-23 16:26:54.041 [DEBUG] cluster.cpp(27): Cluster finalized
+2017-10-23 16:26:54.041 [DEBUG] slave.cpp(64): stopping slave thread...
+2017-10-23 16:26:54.041 [DEBUG] slave.cpp(74): Slave finalized
+2017-10-23 16:26:54.041 [DEBUG] serv.cpp(506): SSDBServer finalized
+2017-10-23 16:26:54.041 [INFO ] ssdb-server.cpp(137): ssdb-server exit.
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:27:11.893 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:27:11.917 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:27:11.919 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:27:11.930 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:27:11.931 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:27:11.932 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:27:11.932 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 1  file_num: 2, filename: 00000002.binlog
+2017-10-23 16:27:11.933 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:27:11.933 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:27:11.936 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737318483712)
+2017-10-23 16:27:11.936 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:27:11.937 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:27:11.941 [INFO ] ttl.cpp(46): expiration thread start tid: 140737303803648.
+2017-10-23 16:27:11.941 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:27:11.942 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14165
+2017-10-23 16:27:11.942 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:27:19.802 [DEBUG] worker.cpp(17): writer 0 init
+2017-10-23 16:28:16.960 [DEBUG] ssdb_impl.cpp(625): gc data loop done, clean 0 keys
+2017-10-23 16:28:16.960 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:28:16.963 [DEBUG] worker.cpp(17): reader 0 init
+2017-10-23 16:28:17.232 [DEBUG] worker.cpp(17): reader 1 init
+2017-10-23 16:29:50.446 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:29:50.446 [DEBUG] ssdb_impl.cpp(625): gc data loop done, clean 0 keys
+2017-10-23 16:29:50.448 [DEBUG] worker.cpp(17): reader 2 init
+2017-10-23 16:29:50.448 [DEBUG] backup.cpp(92): now: 1508747390, last_time::1508688000
+2017-10-23 16:29:50.461 [DEBUG] worker.cpp(17): reader 4 init
+2017-10-23 16:29:50.463 [DEBUG] worker.cpp(17): reader 5 init
+2017-10-23 16:29:50.452 [DEBUG] worker.cpp(17): reader 3 init
+2017-10-23 16:29:50.467 [DEBUG] worker.cpp(17): reader 6 init
+2017-10-23 16:29:50.469 [DEBUG] worker.cpp(17): reader 7 init
+2017-10-23 16:29:50.474 [DEBUG] worker.cpp(17): reader 8 init
+2017-10-23 16:29:50.477 [DEBUG] worker.cpp(17): reader 9 init
+2017-10-23 16:29:52.461 [DEBUG] backup.cpp(92): now: 1508747392, last_time::1508688000
+2017-10-23 16:29:52.461 [DEBUG] backup.cpp(103): cmd:rm -fr ./backup_dir/*
+2017-10-23 16:29:52.476 [DEBUG] backup.cpp(106): cmd:cp -r ./var/* ./backup_dir
+2017-10-23 16:29:54.496 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:29:56.497 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:29:58.498 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:00.499 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:02.500 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:04.501 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:06.502 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:08.503 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:10.504 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:12.505 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:14.506 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:16.507 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:18.508 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:20.509 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:22.510 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:24.511 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:26.512 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:28.513 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:30.514 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:32.515 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:34.516 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:36.517 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:38.518 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:40.519 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:42.521 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:44.522 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:46.522 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:48.523 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:50.449 [DEBUG] ssdb_impl.cpp(625): gc data loop done, clean 0 keys
+2017-10-23 16:30:50.449 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:30:50.525 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:52.526 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:54.527 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:56.528 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:30:58.529 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:00.530 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:02.531 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:04.532 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:06.532 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:08.533 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:10.533 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:12.534 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:14.535 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:16.536 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:18.536 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:20.537 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:22.547 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:24.548 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:31:26.549 [DEBUG] backup.cpp(97): pre_backup false
+2017-10-23 16:32:27.562 [DEBUG] ssdb_impl.cpp(625): gc data loop done, clean 0 keys
+2017-10-23 16:32:27.562 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:38:22.098 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:38:22.132 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:38:22.136 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:38:22.150 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:38:22.153 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:38:22.155 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:38:22.155 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 1  file_num: 2, filename: 00000002.binlog
+2017-10-23 16:38:22.155 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 2  file_num: 3, filename: 00000003.binlog
+2017-10-23 16:38:22.155 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:38:22.155 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:38:22.156 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737318483712)
+2017-10-23 16:38:22.156 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:38:22.157 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:38:22.159 [INFO ] ttl.cpp(46): expiration thread start tid: 140737303803648.
+2017-10-23 16:38:22.159 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:38:22.160 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14655
+2017-10-23 16:38:22.160 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:38:25.805 [DEBUG] ssdb_impl.cpp(625): gc meta loop done, clean 0 keys
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:39:33.364 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:39:33.412 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:39:33.434 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:39:33.467 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:39:33.473 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:39:33.474 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:39:33.477 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 1  file_num: 2, filename: 00000002.binlog
+2017-10-23 16:39:33.478 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 2  file_num: 3, filename: 00000003.binlog
+2017-10-23 16:39:33.478 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 3  file_num: 4, filename: 00000004.binlog
+2017-10-23 16:39:33.478 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:39:33.478 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:39:33.481 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737301706496)
+2017-10-23 16:39:33.481 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:39:33.481 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:39:33.483 [INFO ] ttl.cpp(46): expiration thread start tid: 140737291216640.
+2017-10-23 16:39:33.483 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:39:33.483 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14787
+2017-10-23 16:39:33.483 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:39:36.299 [DEBUG] worker.cpp(17): writer 0 init
+2017-10-23 16:39:43.047 [DEBUG] worker.cpp(17): reader 0 init
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:42:09.411 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:42:09.412 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:42:09.456 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:42:09.459 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:42:09.561 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:42:09.564 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:42:09.566 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:42:09.566 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 1  file_num: 2, filename: 00000002.binlog
+2017-10-23 16:42:09.566 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 2  file_num: 3, filename: 00000003.binlog
+2017-10-23 16:42:09.566 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 3  file_num: 4, filename: 00000004.binlog
+2017-10-23 16:42:09.566 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 4  file_num: 5, filename: 00000005.binlog
+2017-10-23 16:42:09.566 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:42:09.566 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:42:09.568 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737318483712)
+2017-10-23 16:42:09.568 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:42:09.568 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:42:09.571 [INFO ] ttl.cpp(46): expiration thread start tid: 140737303803648.
+2017-10-23 16:42:09.571 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:42:09.572 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 14944
+2017-10-23 16:42:09.572 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:55:31.974 [INFO ] ssdb-server.cpp(47): ssdb-server 1.9.4
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(48): conf_file        : ssdb.conf
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(49): log_level        : debug
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(50): log_output       : log.txt
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(51): log_rotate_size  : 1000000000
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(53): main_db          : ./var/data
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(54): meta_db          : ./var/meta
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(55): cache_size       : 500 MB
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(56): block_size       : 32 KB
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(57): write_buffer     : 64 MB
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(58): max_open_files   : 500
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(59): compaction_speed : 1000 MB/s
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(60): compression      : yes
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(61): binlog           : yes
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(62): binlog dir       : 
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(63): max_binlog_size  : 0 MB
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(64): purge_logs_span  : 0 s
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(65): sync_binlog      : 0
+2017-10-23 16:55:31.975 [INFO ] ssdb-server.cpp(66): sync_speed       : -1 MB/s
+2017-10-23 16:55:32.006 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:55:32.012 [INFO ] ssdb-server.cpp(87): data db init done
+2017-10-23 16:55:32.026 [INFO ] ssdb_impl.cpp(104): start gc
+2017-10-23 16:55:32.027 [INFO ] ssdb-server.cpp(100): meta db init done
+2017-10-23 16:55:32.027 [INFO ] binlog2.cpp(164): binlog recover last_file_num: -1  file_num: 1, filename: 00000001.binlog
+2017-10-23 16:55:32.027 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 1  file_num: 2, filename: 00000002.binlog
+2017-10-23 16:55:32.028 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 2  file_num: 3, filename: 00000003.binlog
+2017-10-23 16:55:32.028 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 3  file_num: 4, filename: 00000004.binlog
+2017-10-23 16:55:32.028 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 4  file_num: 5, filename: 00000005.binlog
+2017-10-23 16:55:32.028 [INFO ] binlog2.cpp(164): binlog recover last_file_num: 5  file_num: 6, filename: 00000006.binlog
+2017-10-23 16:55:32.028 [INFO ] server.cpp(165): server listen on 127.0.0.1:8888
+2017-10-23 16:55:32.028 [INFO ] server.cpp(175): auth: off
+2017-10-23 16:55:32.029 [INFO ] backend_sync2.cpp(26): start backendsync2 timer thread(140737322673920)
+2017-10-23 16:55:32.029 [DEBUG] cluster.cpp(19): Cluster init
+2017-10-23 16:55:32.030 [ERROR] cluster.cpp(549): importing_slots error, save size 0, importing_slots size 2048
+2017-10-23 16:55:32.034 [INFO ] ttl.cpp(46): expiration thread start tid: 140737305900800.
+2017-10-23 16:55:32.034 [INFO ] serv.cpp(484): key_range.kv: "", ""
+2017-10-23 16:55:32.035 [INFO ] ssdb-server.cpp(127): pidfile: ./var/ssdb.pid, pid: 15285
+2017-10-23 16:55:32.035 [INFO ] ssdb-server.cpp(128): ssdb server started.
+2017-10-23 16:55:33.323 [DEBUG] worker.cpp(17): writer 0 init
+2017-10-23 16:55:34.254 [DEBUG] worker.cpp(17): reader 0 init
+2017-10-23 16:55:34.256 [DEBUG] worker.cpp(17): reader 1 init
+2017-10-23 16:55:34.261 [DEBUG] worker.cpp(17): reader 2 init
+2017-10-23 16:55:34.266 [DEBUG] worker.cpp(17): reader 3 init
+2017-10-23 16:55:34.270 [DEBUG] worker.cpp(17): reader 4 init
+2017-10-23 16:55:34.271 [DEBUG] worker.cpp(17): reader 5 init
+2017-10-23 16:55:34.272 [DEBUG] worker.cpp(17): reader 6 init
+2017-10-23 16:55:34.273 [DEBUG] worker.cpp(17): reader 7 init
+2017-10-23 16:55:34.275 [DEBUG] worker.cpp(17): reader 9 init
+2017-10-23 16:55:34.275 [DEBUG] worker.cpp(17): reader 8 init

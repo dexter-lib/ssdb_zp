@@ -1,0 +1,16 @@
+CC=gcc
+CXX=g++
+MAKE=make
+LEVELDB_PATH=/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/leveldb-1.18
+JEMALLOC_PATH=/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/jemalloc-4.1.0
+SNAPPY_PATH=/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/snappy-1.1.0
+CFLAGS=
+CFLAGS = -g -D__STDC_FORMAT_MACROS -Wall -O1 -Wno-sign-compare
+CFLAGS += 
+CFLAGS += -I "/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/leveldb-1.18/include"
+CLIBS=
+CLIBS += "/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/leveldb-1.18/libleveldb.a"
+CLIBS += "/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/snappy-1.1.0/.libs/libsnappy.a"
+CLIBS += "/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/jemalloc-4.1.0/lib/libjemalloc.a"
+CFLAGS += -I "/home/dexter/music/work_push/app/search/mp3/secondversion_BRANCH/ssdb/deps/jemalloc-4.1.0/include"
+CLIBS += -pthread -lrt
